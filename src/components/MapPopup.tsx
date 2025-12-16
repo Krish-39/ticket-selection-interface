@@ -54,8 +54,9 @@ export function MapPopup({ zone, onClose, language }: MapPopupProps) {
         </div>
 
         <div className="w-full border-2 border-[#ddd] rounded-lg mb-4 overflow-hidden bg-white">
+
           <img 
-            src="/map.png" 
+            src="/ticket-selection-interface/map.png" 
             alt="BVG Zone Map" 
             className="w-full h-auto max-h-[400px] object-contain"
           />
